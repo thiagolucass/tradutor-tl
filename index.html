@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/logo2.png">
+    <title>Tradutor TL</title>
+    
+</head>
+<body>
+    <h1>Tradutor de Thiago</h1>
+<div class="container">
+
+    <textarea class="input" placeholder="Digite o texto para traduzir aqui..." >
+       
+    </textarea>
+    <div class="controle">
+<select class="idiomas" id="idioma-destino">
+    <option value="en">
+        Inglês
+    </option>
+    <option value="fr">
+        Francês
+    </option>
+    <option value="es">
+        Espanhol
+    </option>
+    <option value="de">
+        Alemão
+    </option>
+    <option value="it">
+        Italiano
+    </option>
+</select>
+<button id="btn-traduzir"><img src="assets/traduzir.svg"></button>
+<button class="microfone"><img src="assets/microfone.svg"></button>
+</div>
+<div class="resultado">
+    <h3 class="tradução">Tradução</h3>
+    <p class="txtresultado" id="txtresultado">A tradução aparecerá aqui.</p>
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
