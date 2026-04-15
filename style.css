@@ -93,7 +93,8 @@ button:active{
     background-color:  #ffffff1a;
     padding: 13px;
     border-radius: 10px;
-    align-items: center;
+    max-width: 300px;
+    
 }
 .tradução{
     padding-bottom:10px ;
